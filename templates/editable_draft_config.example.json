@@ -1,0 +1,75 @@
+{
+  "draft_name": "AI机器人情报站_示例_EDITABLE",
+  "width": 1080,
+  "height": 1920,
+  "duration": 62,
+  "source_video": "/absolute/path/to/source_video.mp4",
+  "voiceover_audio": "/absolute/path/to/voiceover.mp3",
+  "bgm_audio": "/absolute/path/to/bgm.mp3",
+  "video_scale": 1.78,
+  "output_meta": "/absolute/path/to/editable_draft_meta.json",
+  "visual_slots": [
+    {
+      "start": 0,
+      "duration": 3,
+      "source_ranges": [
+        {
+          "start": 11,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "start": 3,
+      "duration": 4,
+      "source_ranges": [
+        {
+          "start": 1,
+          "duration": 4
+        }
+      ]
+    }
+  ],
+  "audio_tracks": [
+    {
+      "track": "VoiceOver",
+      "path": "/absolute/path/to/voiceover.mp3",
+      "start": 3,
+      "duration": 59,
+      "volume": 1.0,
+      "loop": false
+    },
+    {
+      "track": "BGM",
+      "path": "/absolute/path/to/bgm.mp3",
+      "start": 0,
+      "duration": 62,
+      "volume": 0.18,
+      "loop": true
+    }
+  ],
+  "text_items": [
+    {
+      "track": "Hook",
+      "text": "这也是机器人？",
+      "start": 0.25,
+      "duration": 2.6,
+      "y": 0.55,
+      "size": 11.5,
+      "bold": true,
+      "color": [1, 1, 1],
+      "border_width": 52
+    },
+    {
+      "track": "Subtitles",
+      "text": "这只像玩偶的小机器人，来自 Roomba 创始人的新公司",
+      "start": 3,
+      "duration": 4,
+      "y": -0.72,
+      "size": 5.2,
+      "bold": true,
+      "color": [1, 1, 1],
+      "border_width": 36
+    }
+  ]
+}
